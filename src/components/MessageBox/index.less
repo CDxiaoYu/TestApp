@@ -1,0 +1,45 @@
+.messageBox {
+  padding: 10px;
+  margin: 20px 0 60px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, .04);
+}
+.marks {
+  position: relative;
+  &:before {
+    content: '“';
+    font-size: 50px;
+    opacity: .15;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+  }
+
+  &:after {
+    content: '”';
+    font-size: 50px;
+    opacity: .15;
+    position: absolute;
+    bottom: 60pxpx;
+    right: 0px;
+  }
+}
+
+.triangle {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 20px;
+  border: 13px solid transparent;
+  border-top-color: rgba(0, 0, 0, .04);
+}
+
+.name {
+  position: absolute;
+  top: calc(100% + 30px);
+  right: 0px;
+  font-weight: normal;
+  color: #b83f45;
+}

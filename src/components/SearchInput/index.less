@@ -4,47 +4,6 @@
   box-shadow:  0 20px 40px 	#DCDCDC;
 }
 
-.inputBox {
-  height: 65px;
-  background-color: white;
-  border: 1px solid #DCDCDC ;
-  box-shadow: inset 0 -2px 1px 	#ccc3c3;
-
-
-  &_input {
-    display: block;
-    height: 63px;
-    width: 100%;
-    padding: 16px;
-    padding-left: 60px;
-    border: 0px;
-    outline:medium;
-    font-size: 24px;
-    font-family: inherit;
-    font-weight: inherit;
-    line-height: 1.4em;
-    &::-webkit-input-placeholder{ /*WebKit browsers*/
-      font-style: italic;
-      color: #ddd4d4;
-    }
-  }
-
-  &_btn {
-    position: absolute;
-    font-size: 22px;
-    padding: 15px 27px 15px 27px;
-    transform: rotate(90deg);
-    color: #e6e6e6;
-
-    &_none {
-      display: none;
-    }
-
-    &_all {
-      color: #686060;
-    }
-  }
-}
 
 .itemBox {
 
@@ -74,56 +33,4 @@
   }
 
   position: relative;
-  &_footer {
-    background-color: white;
-    height: 40px;
-    padding: 5px 10px;
-    border: 1px solid #DCDCDC ;
-    border-top: 0px;
-    color: #777;
-    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 30px;
-    display: flex;
-    justify-content: space-around;
-    cursor: pointer;
-
-    
-    &_filter {
-
-      &_focus {
-        display: inline-block;
-        padding: 0px 4px;
-        border: 1px solid rgba(175, 47, 47, 0.2);
-        line-height: 1.2em;
-      }
-      &_noFocus {
-        display: inline-block;
-        padding: 1px 5px;
-        line-height: 1.2em;
-      }
-    }
-  }
-
-  &_decorationOne {
-    background-color: white;
-    width: 98%;
-    height: 5px;
-    border: 1px solid #DCDCDC ;
-    border-top: 0px;
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    z-index: 2;
-  }
-  &_decorationTwo {
-    background-color: white;
-    width: 96%;
-    height: 10px;
-    border: 1px solid #DCDCDC ;
-    border-top: 0px;
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    z-index: 1;
-  }
 }

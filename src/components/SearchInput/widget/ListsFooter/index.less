@@ -1,0 +1,62 @@
+.footer {
+    background-color: white;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #DCDCDC ;
+    border-top: 0px;
+    color: #777;
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+    
+    &_filter {
+        &_focus {
+            display: inline-block;
+            padding: 0px 4px;
+            border: 1px solid rgba(175, 47, 47, 0.2);
+            line-height: 1.2em;
+        }
+        &_noFocus {
+            display: inline-block;
+            padding: 1px 5px;
+            line-height: 1.2em;
+        }
+    }
+
+    &_clear {
+        &_show {
+            visibility: visible;
+        }
+
+        &_hidden {
+            visibility: hidden;
+        }
+    }
+    
+}
+
+.decorationOne {
+    background-color: white;
+    width: 98%;
+    height: 5px;
+    border: 1px solid #DCDCDC ;
+    border-top: 0px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 2;
+}
+.decorationTwo {
+    background-color: white;
+    width: 96%;
+    height: 10px;
+    border: 1px solid #DCDCDC ;
+    border-top: 0px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 1;
+}
